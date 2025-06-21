@@ -396,3 +396,40 @@
     **B. false** 
     C. error  
     D. null
+
+## 7.  Access Modifiers
+
+ 1. Which access modifier allows access from any class?
+
+    A. private  
+    **B. public** 
+    C. internal  
+    D. protected
+
+ 2. Which modifier restricts access to the same class only?
+
+    A. public  
+    B. protected  
+    **C. private** 
+    D. static
+
+ 3. What does the internal modifier mean?
+
+    A. Access within same namespace  
+    B. Access from other assemblies  
+    C. Access only inside methods  
+    **D. Access within same assembly**
+
+ 4. Which modifier allows access in derived classes only?
+
+    A. private  
+    **B. protected**
+    C. internal  
+    D. public
+
+ 5. What is the most restrictive access modifier?
+
+    A. internal  
+    B. protected  
+    **C. private**
+    D. sealed
