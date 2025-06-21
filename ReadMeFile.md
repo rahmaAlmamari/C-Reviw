@@ -211,3 +211,40 @@
      B. Enable multi-threading  
      **C. Allow await/async operations**  
      D. Return multiple results
+
+## 2.  Loops
+
+ 1. Which loop guarantees at least one execution?
+
+    A. for  
+    B. while  
+    **C. do-while**  
+    D. foreach
+
+ 2. What is the output of this loop: for (int i = 0; i < 3; i++) Console.Write(i);?
+
+    A. 123  
+    **B. 012**  
+    C. 345  
+    D. 013
+
+ 3. Which keyword exits the current loop?
+
+    A. return  
+    B. stop  
+    **C. break**  
+    D. exit
+
+ 4. What does continue do inside a loop?
+
+    A. Stops all loops  
+    B. Skips the next loop  
+    **C. Skips current iteration**  
+    D. Ends loop
+
+ 5. Which loop is best when number of iterations is known?
+
+    A. while  
+    B. do-while  
+    **C. for** 
+    D. goto
