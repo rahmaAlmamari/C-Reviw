@@ -286,3 +286,39 @@
     C. 5  
     D. Cannot be determined
 
+## 4.  Exceptions
+
+1. What keyword is used to catch exceptions?
+
+   A. handle  
+   **B. catch**  
+   C. except  
+   D. trap
+
+ 2. What does the try block do?
+
+    A. Stops code  
+    B. Tests a value  
+    **C. Contains risky code**  
+    D. Always runs first
+
+ 3. What is thrown when dividing by zero?
+
+    A. ArithmeticException  
+    **B. DivideByZeroException**
+    C. NullReferenceException  
+    D. ArgumentException
+
+ 4. Which block must follow a try block?
+
+    A. handle  
+    B. finally  
+    **C. catch** 
+    D. exit
+
+ 5. What does the finally block do?
+
+    A. Runs only on error  
+    B. Runs after catch  
+    **C. Always runs** 
+    D. Skips if no error
