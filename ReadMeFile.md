@@ -248,3 +248,41 @@
     B. do-while  
     **C. for** 
     D. goto
+
+## 3.  Arrays
+
+1. What is the correct way to declare an array of 5 integers?
+
+   A. int arr[5];  
+   B. int arr = new int[5];  
+   **C. int[] arr = new int[5];** 
+   D. array<int> arr = 5;
+
+ 2. What is the index of the first element in a C# array?
+
+    A. 1  
+    **B. 0** 
+    C. -1  
+    D. Depends on OS
+
+ 3. How do you access the third element in an array named numbers?
+
+    A. numbers(3)  
+    **B. numbers[2]** 
+    C. numbers{3}  
+    D. numbers<3>
+
+ 4. What is the result of int[] x = new int[3];?
+
+    A. x has 0 elements  
+    **B. x has 3 elements all set to 0**
+    C. x has null values  
+    D. Syntax error
+
+ 5. What is the length of int[] a = {1, 2, 3, 4};?
+
+    A. 3  
+    **B. 4**  
+    C. 5  
+    D. Cannot be determined
+
