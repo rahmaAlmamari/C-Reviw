@@ -359,3 +359,40 @@
     **B. 4 bytes**  
     C. 8 bytes  
     D. 1 byte
+
+## 6. Operators
+
+ 1. What is the result of 5 + 3 * 2?
+
+    **A. 11** 
+    B. 16  
+    C. 13  
+    D. 10
+
+ 2. Which operator is used to check equality?
+
+    A. =  
+    B. :=  
+    **C. ==** 
+    D. ===
+
+ 3. What does the % operator do?
+
+    A. Division  
+    B. Multiplication  
+    **C. Remainder** 
+    D. Percentage
+
+  4. Which operator is used to increase a value by 1?
+
+     A. +=  
+     **B. ++**
+     C. inc  
+     D. add
+
+ 5. What is the output of true && false?
+
+    A. true  
+    **B. false** 
+    C. error  
+    D. null
