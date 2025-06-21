@@ -433,3 +433,215 @@
     B. protected  
     **C. private**
     D. sealed
+
+## 8.  Input/Output
+
+ 1. Which method is used to read user input from the console?
+
+    A. Console.Read()  
+    **B. Console.ReadLine()**  
+    C. Input.Read()  
+    D. System.Input()
+
+ 2. What is the return type of Console.ReadLine()?
+
+    A. int  
+    B. char  
+    **C. string**
+    D. object
+
+ 3. How do you write output to the console?
+
+    A. print()  
+    B. Console.Output()  
+    **C. Console.WriteLine()** 
+    D. System.Write()
+
+ 4. What does Console.Write() do differently from Console.WriteLine()?
+
+    A. Adds a newline  
+    B. Reads input  
+    **C. Does not add a newline** 
+    D. Adds a space
+
+ 5. How to read a single character from the console?
+
+    A. Console.ReadChar()  
+    B. Console.ReadLine()[0]  
+    **C. Console.ReadKey().KeyChar**
+    D. Console.Read().Char
+
+ 6. Which namespace contains console input/output functions?
+
+    A. System.IO  
+    B. System.Console  
+    C. System.Text  
+    **D. System**
+
+ 7. How do you format a string in WriteLine()?
+
+    A. Console.WriteLine("Hi " + name)  
+    B. Console.WriteLine("Hi {0}", name)  
+    C. Console.WriteLine($"Hi{name}")  
+    **D. All of the above**
+
+ 8. Which function pauses for a key press?
+
+    A. Console.Wait()  
+    B. Console.ReadLine()  
+    **C. Console.ReadKey()**
+    D. Console.Hold()
+
+ 9. What does Console.Read() return?
+
+    **A. string**  
+    B. char  
+    C. int  
+    D. object
+
+ 10. Which method is used to clear the console screen?
+
+     **A. Console.Clear()**  
+     B. Console.Erase()  
+     C. Console.Reset()  
+     D. Console.Flush()
+
+ 11. What is the purpose of Console.Error.WriteLine()?
+
+     A. Display warnings  
+     **B. Display errors**  
+     C. Log debug  
+     D. Input from user
+
+ 12. What is printed by this code?  Console.Write("X"); Console.Write("Y");
+
+     A. X Y  
+     B. X  
+     **C. XY** 
+     D. X\nY
+
+ 13. What happens if you enter a number and read it with Console.ReadLine()?
+
+     **A. Stored as string**
+     B. Stored as int  
+     C. Compiler error  
+     D. Exception
+
+ 14. How to convert string input to integer safely?
+
+     A. Convert.ToInt32()  
+     B. int.Parse()  
+     C. int.TryParse()  
+     **D. All of them**
+
+ 15. What happens if int.Parse("abc") is executed?
+
+     A. 0  
+     B. null  
+     **C. Exception**  
+     D. "abc"
+
+ 16. Which method is preferred to avoid exceptions while parsing?
+
+     A. Convert.ToInt32()  
+     B. int.Parse()  
+     **C. int.TryParse()**
+     D. ParseExact()
+
+ 17. What does this print?  Console.Write("A"); Console.WriteLine("B");
+
+     A. A B  
+     **B. AB** 
+     C. A\nB  
+     D. A \n B
+
+ 18. What does Console.BackgroundColor affect?
+
+     A. Text color  
+     B. Console window  
+     **C. Console background**  
+     D. Console size
+
+ 19. What method sets cursor position on screen?
+
+     A. Console.SetCursor()  
+     B. Console.MoveTo()  
+     **C. Console.SetCursorPosition()**  
+     D. Console.Cursor()
+
+  20. Which method reads a key without displaying it?
+
+      **A. Console.ReadKey(true)** 
+      B. Console.ReadKey(false)  
+      C. Console.Read()  
+      D. Console.ReadLine()
+
+ 21. Which of these clears user input in the console?
+
+     **A. Console.Clear()**  
+     B. Console.Reset()  
+     C. Console.Close()  
+     D. Console.Clean()
+
+ 22. Can Console.WriteLine() output formatted values?
+
+     **A. Yes**
+     B. No  
+     C. Only strings  
+     D. Only variables
+
+ 23. Which method is best for secure password input?
+
+     A. Console.ReadLine()  
+     B. Console.Read()  
+     C. Console.ReadKey(true)  
+     **D. Console.GetPassword()**
+
+ 24. What does Console.Title = "App" do?
+
+     A. Prints title  
+     **B. Sets window title**
+     C. Declares variable  
+     D. Renames console
+
+ 25. Which key property can you read from Console.ReadKey()?
+
+     **A. Key**
+     B. Value  
+     C. Char  
+     D. Input
+
+  26. How do you change the text color in console?
+
+      A. Console.FontColor  
+      B. Console.ForegroundColor  
+      **C. Console.TextColor** 
+      D. Console.Color
+
+ 27. What does Console.WriteLine("\nHello") print?
+
+     A. Hello  
+     B. \nHello  
+     **C. (newline)Hello**
+     D. Error
+
+ 28. What happens if you press Enter on Console.ReadKey()?
+
+     A. It waits  
+     B. It throws error  
+     **C. It returns key info**
+     D. It exits app
+
+ 29. Can you write to console without newline?
+
+     **A. Yes, with Write()**
+     B. No  
+     C. Only WriteLine()  
+     D. Only with flush
+
+ 30. What is the purpose of Console.In?
+
+     A. Reads keyboard  
+     B. Controls file output  
+     **C. Handles standard input stream** 
+     D. Closes console
