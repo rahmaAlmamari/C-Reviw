@@ -856,3 +856,75 @@
     B. File.ListAll()  
     C. Directory.ReadAll() 
     D. IO.Directory.Files()
+
+## 10.  Syntax
+
+ 1. What is the correct entry point method in a C# console application?
+
+    A. init()  
+    B. Start()  
+    C. main()  
+    **D. Main()**
+
+ 2. Which character ends a C# statement?
+
+    A. .  
+    **B. ;**  
+    C. :  
+    D. ,
+
+ 3. What is the correct way to write a single-line comment in C#?
+
+    A. /* comment */  
+    B. # comment  
+    **C. // comment** 
+    D. -- comment
+
+ 4. Which of the following correctly declares a class in C#?
+
+    **A. class Car {}**  
+    B. def Car() {}  
+    C. Car : class {}  
+    D. class = Car
+
+ 5. What keyword is used to create an object in C#?
+
+    A. create  
+    **B. new** 
+    C. make  
+    D. define
+
+ 6. Which type of application does not have a user interface?
+
+    A. WinForms  
+    B. Web  
+    C. Console  
+    **D. Windows Service**
+
+ 7. What does `using System;` do?
+
+    **A. Imports namespace**  
+    B. Runs System class  
+    C. Defines a method  
+    D. Creates new object
+
+ 8. Which keyword is used to declare a namespace?
+
+     A. package  
+     B. group  
+     C. ns  
+     **D. namespace**
+
+ 9. Which of these is a correct way to print something?
+
+    A. print("Hi")  
+    B. echo("Hi")  
+    **C. Console.WriteLine("Hi")**  
+    D. cout << "Hi"
+
+ 10. What does the `return` statement do?
+
+     A. Stop the class  
+     B. Exit a loop  
+     **C. Return from method**  
+     D. Close a file
