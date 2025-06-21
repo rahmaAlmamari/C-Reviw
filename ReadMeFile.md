@@ -322,3 +322,40 @@
     B. Runs after catch  
     **C. Always runs** 
     D. Skips if no error
+
+## 5.  Data Types
+
+1. What is the default value of an int in C#?
+
+   A. -1  
+   B. null  
+   **C. 0** 
+   D. 1
+
+ 2. Which of the following is a value type?
+
+    A. string  
+    B. object  
+    **C. int**  
+    D. class
+
+ 3. What keyword is used to declare a variable that cannot be changed?
+
+    A. static  
+    B. readonly  
+    **C. const**  
+    D. immutable
+
+ 4. Which data type is used to store true or false values?
+
+    A. int  
+    B. boolean  
+    **C. bool**  
+    D. bit
+
+ 5. What is the size of a float in C#?
+
+    A. 2 bytes  
+    **B. 4 bytes**  
+    C. 8 bytes  
+    D. 1 byte
