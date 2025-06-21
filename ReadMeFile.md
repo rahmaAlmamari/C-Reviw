@@ -645,3 +645,214 @@
      B. Controls file output  
      **C. Handles standard input stream** 
      D. Closes console
+
+## 9.  File Handling
+
+ 1. Which namespace is required for file operations?
+
+    A .System.Data  
+    **B. System.IO** 
+    C. System.Files  
+    D. System.FileHandling
+
+ 2. What class is used to read text files line by line?
+
+    A. Stream  
+    B. File  
+    **C. StreamReader** 
+    D. FileReader
+
+ 3. What class is used to write text to a file?
+
+    A. FileStream  
+    B. FileWriter  
+    **C. StreamWriter**  
+    D. TextWriter
+
+  4. Which method reads all lines from a file into a string array?
+
+     A. File.Read()  
+     B. File.ReadLines()  
+     **C. File.ReadAllLines()** 
+     D. File.GetLines()
+
+ 5. Which method creates a file if it doesn't exist?
+
+    A. File.Make()  
+    **B. File.Create()**  
+    C. File.Open() 
+    D. File.Build()
+
+ 6. What happens if you use File.Create() on an existing file?
+
+    A. Appends content  
+    B. Deletes the file  
+    C. Overwrites it  
+    **D. Throws an error**
+
+ 7. What does File.Exists("data.txt") return?
+
+    A. void  
+    B. string  
+    **C. bool**  
+    D. file object
+
+ 8. What method is used to delete a file?
+
+    A. File.Drop()  
+    B. File.Remove()  
+    **C. File.Delete()** 
+    D. File.Cut()
+ 
+ 9. What type does File.ReadAllText() return?
+
+    **A. string**  
+    B. char array  
+    C. int  
+    D. FileStream
+
+ 10. How do you append text to a file?
+
+     A. File.WriteAppend()  
+     B. File.WriteAllLines()  
+     **C. File.AppendAllText()** 
+     D. File.ContinueWrite()
+
+ 11. Which stream is unidirectional and used only for reading?
+
+     **A. StreamReader** 
+     B. FileStream  
+     C. StreamWriter  
+     D. MemoryStream
+
+ 12. Which exception occurs if the file path is wrong?
+
+     A. IOException  
+     **B. FileNotFoundException** 
+     C. PathException
+     D. NullReferenceException
+ 
+ 13. What does StreamWriter.WriteLine() do?
+
+     **A. Reads file**  
+     B. Appends binary  
+     C. Writes text and newline  
+     D. Opens file dialog
+
+ 14. What is the default encoding used by StreamWriter?
+
+    A. ASCII  
+    **B. UTF8**  
+    C. UTF16  
+    D. Binary
+
+ 15. How do you close a file after reading with StreamReader?
+
+     A. Dispose()  
+     B. End()  
+     **C. Close()**  
+     D. Stop()
+
+ 16. What happens if StreamWriter is not closed?
+
+     A. No issue  
+     **B. File may lock or data may not write**  
+     C. Exception occurs  
+     D. File gets deleted
+
+ 17. Which method allows reading file content line by line in a loop?
+
+     A. ReadAllLines()  
+     **B. ReadLine()**  
+     C. ReadFile()  
+     D. GetNextLine()
+ 
+18. What is the correct way to use a StreamReader with using?
+
+    **A. using(StreamReader sr = new StreamReader(path))**  
+    B. using FileReader  
+    C. using.Read(path)  
+    D. open sr(path)
+
+19. What type of file can File.WriteAllBytes() handle?
+    A. text only  
+    **B. binary files**  
+    C. csv  
+    D. XML only
+
+20. What does File.Copy(source, destination) do?
+
+    A. Moves file  
+    B. Reads source only  
+    **C. Duplicates file**  
+    D. Renames file
+
+21. Which stream allows both reading and writing to a file?
+
+    A. BinaryReader  
+    **B. FileStream** 
+    C. StreamReader  
+    D. None
+  
+22. What exception occurs when writing to a read-only file?
+
+    A. InvalidFileException  
+    **B. UnauthorizedAccessException** 
+    C. IOException  
+    D. WriteDeniedException
+
+23. Can you read and write to a file at the same time in C#?
+
+    A. No  
+    **B. Bl Yes, with FileStream** 
+    C. Cl Only with File class  
+    D. Only in async methods
+
+24. How to overwrite a file's content?
+
+    A. File.AppendAllText()  
+    B. File.Delete() then write  
+    **C. File.WriteAllText()**  
+    D. File.Continue()
+
+25. How to read binary data from a file?
+
+    **A. BinaryReader**  
+    B. StreamReader  
+    C. FileTextReader  
+    D. TextParser
+
+26. What is Path.Combine() used for?
+
+    A. Compress files  
+    B. Format file content  
+    **C. Combine folder and file paths**  
+    D. Append data
+
+27. How can you check file creation time?
+
+    **A. File.GetCreationTime(path)** 
+    B. File.CheckTime()  
+    C. File.Info(path).Created  
+    D. path.CreatedTime()
+
+28. How do you check if a directory exists?
+
+    A. Directory.Check()  
+    **B. Directory.Exists()** 
+    C. File.IsFolder()  
+    D. IO.Directory.Check()
+
+29. How to create a new folder in C#?
+
+    A. File.CreateFolder()  
+    B. IO.NewFolder()  
+    **C. Directory.CreateDirectory()**  
+    D. Folder.Make()
+
+30. What method lists all files in a directory?
+
+    **A. Directory.GetFiles()** 
+    B. File.ListAll()  
+    C. Directory.ReadAll() 
+    D. IO.Directory.Files()
