@@ -1238,5 +1238,104 @@ if (str1 == str2) {
 }
 ```
 
+## 7. Access Modifiers
+
+1.  Create a class with private field and public Set/Get methods.
+
+```csharp
+public class Person {
+    private string name;
+    public void SetName(string name) {
+        this.name = name;
+    }
+    public string GetName() {
+        return name;
+    }
+}
+```
+
+2.  Use a public method that calls a private method inside the class.
+
+```csharp
+public class Calculator {
+    public int Add(int a, int b) {
+        return AddNumbers(a, b);
+    }
+    
+    private int AddNumbers(int x, int y) {
+        return x + y;
+    }
+}
+```
+
+3.  Track method calls using static field.
+
+```csharp
+public class Counter {
+    private static int count = 0;
+    
+    public void Increment() {
+        count++;
+    }
+    
+    public static int GetCount() {
+        return count;
+    }
+}
+```
+
+4.  Use protected method in base class and call from derived class.
+
+```csharp
+using System;
+
+// Base class with a protected method
+class Animal
+{
+    protected void Speak()
+    {
+        Console.WriteLine("The animal makes a sound.");
+    }
+}
+
+// Derived class that calls the protected method
+class Dog : Animal
+{
+    public void MakeSound()
+    {
+        // Call the protected method from the base class
+        Speak();
+    }
+}
+
+// Main program
+class Program
+{
+    static void Main(string[] args)
+    {
+        Dog myDog = new Dog();
+        myDog.MakeSound();  // Output: The animal makes a sound.
+    }
+}
+```
+
+5.  Demonstrate scope of a local variable inside a method.
+
+```csharp
+public class ScopeDemo {
+    public void ShowScope() {
+        int localVar = 10; // Local variable
+        Console.WriteLine($"Local variable: {localVar}");
+    }
+    
+    public void TryAccessLocalVar() {
+        // Console.WriteLine(localVar); // This will cause an error
+    }
+}
+```
+
+
+
+
 
 
