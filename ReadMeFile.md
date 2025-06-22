@@ -1502,6 +1502,102 @@ class Program
 }
 ```
 
+## 10. Syntax
+
+1.  Write Main() that prints 'Hello, C#'.
+
+```csharp
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, C#");
+    }
+}
+```
+
+2.  Declare and print string, int, bool variables.
+
+```csharp
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string message = "Welcome to C#";
+        int number = 42;
+        bool isActive = true;
+        Console.WriteLine($"Message: {message}");
+        Console.WriteLine($"Number: {number}");
+        Console.WriteLine($"Is Active: {isActive}");
+    }
+}
+```
+
+3.  Use a for loop to print numbers 1 to 5.
+
+```csharp
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+```
+
+4.  Check if number is positive, negative or zero using if-else.
+
+```csharp
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Enter a number: ");
+        int number = int.Parse(Console.ReadLine());
+        
+        if (number > 0)
+        {
+            Console.WriteLine("Number is positive.");
+        }
+        else if (number < 0)
+        {
+            Console.WriteLine("Number is negative.");
+        }
+        else
+        {
+            Console.WriteLine("Number is zero.");
+        }
+    }
+}
+```
+
+5.  Create class Car with Drive() method, call it from Main().
+
+```csharp
+using System;
+class Car
+{
+    public void Drive()
+    {
+        Console.WriteLine("The car is driving.");
+    }
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        Car myCar = new Car();
+        myCar.Drive();
+    }
+}
+```
 
 
 
