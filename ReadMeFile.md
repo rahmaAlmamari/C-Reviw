@@ -1334,6 +1334,51 @@ public class ScopeDemo {
 }
 ```
 
+## 8. Input/Output
+
+1.  Read user name using Console.ReadLine() and greet them.
+
+```csharp
+Console.Write("Enter your name: ");
+string name = Console.ReadLine();
+Console.WriteLine($"Hello, {name}!");
+```
+
+2.  Read two numbers from user and display their sum.
+
+```csharp
+Console.Write("Enter first number: ");
+int num1 = int.Parse(Console.ReadLine());
+Console.Write("Enter second number: ");
+int num2 = int.Parse(Console.ReadLine());
+Console.WriteLine($"Sum: {num1 + num2}");
+```
+
+3. Ask for favorite color and print using string interpolation.
+
+```csharp
+Console.Write("Enter your favorite color: ");
+string color = Console.ReadLine();
+Console.WriteLine($"Your favorite color is {color}.");
+```
+
+4. Print two messages on the same line using Console.Write().
+
+```csharp
+Console.Write("Hello, ");
+Console.Write("World!");
+Console.WriteLine(); // To move to the next line after printing
+```
+
+5.  Read a key using Console.ReadKey() and display it.
+
+```csharp
+Console.Write("Press any key: ");
+var key = Console.ReadKey();
+Console.WriteLine(); // Move to next line
+Console.WriteLine($"You pressed: {key.KeyChar}");
+```
+
 
 
 
