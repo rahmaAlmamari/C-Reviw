@@ -972,3 +972,53 @@ public int Factorial(int n) {
     return n * Factorial(n - 1);
 }
 ```
+
+## 2. Loops
+
+1.  Use a for loop to print numbers 1 to 10.
+
+```csharp
+for (int i = 1; i <= 10; i++) {
+    Console.WriteLine(i);
+}
+```
+
+2.  Use a while loop to print even numbers from 2 to 20.
+
+```csharp
+int i = 2;
+while (i <= 20) {
+    Console.WriteLine(i);
+    i += 2;
+}
+```
+
+3.  Create a do-while loop that accepts password input until 'admin' is entered.
+
+```csharp
+do {
+    Console.Write("Enter password: ");
+    string password = Console.ReadLine();
+} while (password != "admin");
+```
+
+4.  Sum numbers from 1 to 100 using a loop.
+
+```csharp
+int sum = 0;
+for (int i = 1; i <= 100; i++) {
+    sum += i;
+}
+Console.WriteLine($"Sum: {sum}");
+```
+
+5.  Print names in a string array using foreach.
+
+```csharp
+string[] names = { "Alice", "Bob", "Charlie" };
+foreach (string name in names) {
+    Console.WriteLine(name);
+}
+```
+
+
