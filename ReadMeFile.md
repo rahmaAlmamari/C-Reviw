@@ -928,3 +928,47 @@
      B. Exit a loop  
      **C. Return from method**  
      D. Close a file
+
+# **C# Practical Coding Questions**
+
+## 1. Functions
+
+1. Create a function named AddTwoNumbers that takes two integers and returns their sum.
+
+```csharp
+public int AddTwoNumbers(int a, int b) {
+    return a + b;
+}
+```
+2.  Write a method called IsEven that returns true if a number is even.
+
+```csharp
+public bool IsEven(int number) {
+    return number % 2 == 0;
+}
+```
+
+3.  Create a method GreetUser(string name) that prints 'Welcome, <name>!'
+
+```csharp
+public void GreetUser(string name) {
+    Console.WriteLine($"Welcome, {name}!");
+}
+```
+
+4.  Define a method Max that takes two doubles and returns the greater one.
+
+```csharp
+public double Max(double x, double y) {
+    return x > y ? x : y;
+}
+```
+
+5.  Create a recursive method to calculate factorial of a number.
+
+```csharp
+public int Factorial(int n) {
+    if (n <= 1) return 1;
+    return n * Factorial(n - 1);
+}
+```
