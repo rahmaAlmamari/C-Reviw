@@ -1379,6 +1379,130 @@ Console.WriteLine(); // Move to next line
 Console.WriteLine($"You pressed: {key.KeyChar}");
 ```
 
+## 9. File Handling
+
+1.  Create a text file and write a welcome message.
+
+```csharp
+using System;
+using System.IO;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Define the file path
+        string filePath = "welcome.txt";
+
+        // Define the welcome message
+        string message = "Welcome to the C# world!";
+
+        try
+        {
+            // Write the message to the file
+            File.WriteAllText(filePath, message);
+
+            Console.WriteLine("Message written to file successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("An error occurred: " + ex.Message);
+        }
+    }
+}
+```
+
+2.  Check if a file exists and print appropriate message.
+
+```csharp
+using System;
+using System.IO;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string filePath = "data.txt";
+        if (File.Exists(filePath))
+        {
+            Console.WriteLine("File exists.");
+        }
+        else
+        {
+            Console.WriteLine("File does not exist.");
+        }
+    }
+}
+```
+
+3.  Append a line to log.txt, create if missing.
+
+```csharp
+using System;
+using System.IO;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string logFilePath = "log.txt";
+        string logMessage = "Log entry at " + DateTime.Now;
+        // Append the log message to the file
+        File.AppendAllText(logFilePath, logMessage + Environment.NewLine);
+        Console.WriteLine("Log entry added.");
+    }
+}
+```
+
+4.  Read and print contents of notes.txt.
+
+```csharp
+using System;
+using System.IO;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string notesFilePath = "notes.txt";
+        if (File.Exists(notesFilePath))
+        {
+            string content = File.ReadAllText(notesFilePath);
+            Console.WriteLine("Notes content:");
+            Console.WriteLine(content);
+        }
+        else
+        {
+            Console.WriteLine("Notes file does not exist.");
+        }
+    }
+}
+```
+
+5. Read names from file and print with line numbers.
+
+```csharp
+using System;
+using System.IO;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string namesFilePath = "names.txt";
+        if (File.Exists(namesFilePath))
+        {
+            string[] names = File.ReadAllLines(namesFilePath);
+            for (int i = 0; i < names.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}: {names[i]}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Names file does not exist.");
+        }
+    }
+}
+```
+
+
 
 
 
