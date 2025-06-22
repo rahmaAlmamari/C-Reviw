@@ -1136,5 +1136,49 @@ try {
 }
 ```
 
+## 5. Data Types
+
+1.  Declare and print variables: name (string), age (int), height (double).
+
+```csharp
+string name = "Alice";
+int age = 30;
+double height = 5.5;
+Console.WriteLine($"Name: {name}, Age: {age}, Height: {height}");
+```
+
+2.  Ask for age and print 'You are X years old'.
+
+```csharp
+Console.Write("Enter your age: ");
+int age = int.Parse(Console.ReadLine());
+Console.WriteLine($"You are {age} years old.");
+```
+
+3.  Calculate area of a circle using const double Pi.
+
+```csharp
+const double Pi = 3.14;
+double radius = 5.0;
+double area = Pi * radius * radius;
+Console.WriteLine($"Area of circle: {area}");
+```
+
+4. Add two float numbers and print result formatted to 2 decimals.
+
+```csharp
+float num1 = 5.5f;
+float num2 = 3.3f;
+float sum = num1 + num2;
+Console.WriteLine($"Sum: {sum:F2}");
+```
+
+5.  Use var with string value and print its type.
+
+```csharp
+var message = "Hello, World!";
+Console.WriteLine($"Message: {message}, Type: {message.GetType()}");
+```
+
 
 
