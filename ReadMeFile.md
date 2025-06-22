@@ -1180,5 +1180,63 @@ var message = "Hello, World!";
 Console.WriteLine($"Message: {message}, Type: {message.GetType()}");
 ```
 
+## 6. Operators
+
+1.  Input two numbers, show sum, difference, product, and quotient.
+
+```csharp
+Console.Write("Enter first number: ");
+int num1 = int.Parse(Console.ReadLine());
+Console.Write("Enter second number: ");
+int num2 = int.Parse(Console.ReadLine());
+Console.WriteLine($"Sum: {num1 + num2}");
+Console.WriteLine($"Difference: {num1 - num2}");
+Console.WriteLine($"Product: {num1 * num2}");
+Console.WriteLine($"Quotient: {(double)num1 / num2}");
+```
+
+2.  Check if number is >10 and even using logical AND.
+
+```csharp
+Console.Write("Enter a number: ");
+int number = int.Parse(Console.ReadLine());
+if (number > 10 && number % 2 == 0) {
+    Console.WriteLine("Number is greater than 10 and even.");
+} else {
+    Console.WriteLine("Condition not met.");
+}
+```
+
+3.  Use ternary operator to check if age >= 18 (Adult/Minor).
+
+```csharp
+Console.Write("Enter your age: ");
+int age = int.Parse(Console.ReadLine());
+string status = age >= 18 ? "Adult" : "Minor";
+Console.WriteLine($"You are an {status}.");
+```
+
+4.  Increment x = 5 using ++ and print result.
+
+```csharp
+int x = 5;
+x++;
+Console.WriteLine($"Incremented value: {x}");
+```
+
+5.  Compare two strings and check if they are equal using ==.
+
+```csharp
+Console.Write("Enter first string: ");
+string str1 = Console.ReadLine();
+Console.Write("Enter second string: ");
+string str2 = Console.ReadLine();
+if (str1 == str2) {
+    Console.WriteLine("Strings are equal.");
+} else {
+    Console.WriteLine("Strings are not equal.");
+}
+```
+
 
 
