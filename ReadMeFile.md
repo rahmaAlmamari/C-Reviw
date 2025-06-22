@@ -1080,5 +1080,61 @@ foreach (int num in userArray) {
 Console.WriteLine($"Odd count: {oddCount}");
 ```
 
+## 4. Exceptions
+
+1.  Catch format exception when parsing an int.
+
+```csharp
+try {
+    int number = int.Parse("abc");
+} catch (FormatException ex) {
+    Console.WriteLine("Invalid format: " + ex.Message);
+}
+```
+
+2.  Handle divide-by-zero exception with try-catch.
+
+```csharp
+try {
+    int result = 10 / 0;
+} catch (DivideByZeroException ex) {
+    Console.WriteLine("Cannot divide by zero: " + ex.Message);
+}
+```
+
+3.  Use try-catch to check if a file exists before reading.
+
+```csharp
+try {
+    string content = File.ReadAllText("file.txt");
+} catch (FileNotFoundException ex) {
+    Console.WriteLine("File not found: " + ex.Message);
+}
+```
+
+4.  Demonstrate finally block that always prints 'Finished'.
+
+```csharp
+try {
+    Console.WriteLine("Trying something...");
+} catch (Exception ex) {
+    Console.WriteLine("Error: " + ex.Message);
+} finally {
+    Console.WriteLine("Finished");
+}
+```
+
+5.  Wrap user input in try-catch to validate number entry.
+
+```csharp
+try {
+    Console.Write("Enter a number: ");
+    int num = int.Parse(Console.ReadLine());
+    Console.WriteLine($"You entered: {num}");
+} catch (FormatException ex) {
+    Console.WriteLine("Invalid number format: " + ex.Message);
+}
+```
+
 
 
