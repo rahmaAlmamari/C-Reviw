@@ -1021,4 +1021,64 @@ foreach (string name in names) {
 }
 ```
 
+## 3. Arrays
+
+1.  Create an array {5,10,15,20} and print first and last elements.
+
+```csharp
+int[] numbers = { 5, 10, 15, 20 };
+Console.WriteLine($"First: {numbers[0]}, Last: {numbers[numbers.Length - 1]}");
+```
+
+2.  Find the max value in an int array.
+
+```csharp
+int[] arr = { 3, 5, 7, 2, 8 };
+int max = arr[0];
+foreach (int num in arr) {
+    if (num > max) {
+        max = num;
+    }
+}
+Console.WriteLine($"Max: {max}");
+```
+
+3.  Store 3 names from user input in an array, print in reverse.
+
+```csharp
+string[] names = new string[3];
+for (int i = 0; i < names.Length; i++) {
+    Console.Write($"Enter name {i + 1}: ");
+    names[i] = Console.ReadLine();
+}
+for (int i = names.Length - 1; i >= 0; i--) {
+    Console.WriteLine(names[i]);
+}
+```
+
+4.  Sum all elements in array {3,6,9,12}.
+
+```csharp
+int[] arr = { 3, 6, 9, 12 };
+int sum = 0;
+foreach (int num in arr) {
+    sum += num;
+}
+Console.WriteLine($"Sum: {sum}");
+```
+
+5.  Count how many odd numbers are in a user-defined array.
+
+```csharp
+int[] userArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+int oddCount = 0;
+foreach (int num in userArray) {
+    if (num % 2 != 0) {
+        oddCount++;
+    }
+}
+Console.WriteLine($"Odd count: {oddCount}");
+```
+
+
 
